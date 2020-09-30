@@ -1,0 +1,28 @@
+/* колір основного текста #757575 */
+/* вторинний колір текста #212121 */
+/* білий колір #FFFFFF */
+/* акцент #2196F3 */
+/* колір контактів в підвалі rgba(255, 255, 255, 0.6) */
+/* головний колір фона #ffffff */
+/* вторинний колір фона  #2F303A */
+/* колір фона кнопок #F5F4FA */
+
+ul {
+  list-style: none;
+}
+/* Фільтри */
+.portfolio-list .portfolio-button {
+  color: var(--title-text-color);
+  background-color: var(--secondary-bg-color);
+  font-family: inherit;
+}
+.portfolio-list .portfolio-button:hover,
+.portfolio-list .portfolio-button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+/* Section */
+.section-title {
+  color: var(--title-text-color);
+}
