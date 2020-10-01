@@ -67,6 +67,9 @@
 }
 
 /* Преймущества  */
+.features.container {
+  margin-bottom: 94px;
+}
 .features .list-title {
   margin-top: 0;
   margin-bottom: 10px;
@@ -79,7 +82,7 @@
 }
 .features .text {
   margin-top: 0;
-  margin-bottom: 94px;
+  margin-bottom: 0;
   font-size: 14px;
   line-height: 1.71;
 }

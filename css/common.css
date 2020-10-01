@@ -34,13 +34,15 @@ body {
   line-height: 1.19;
 }
 /* Page header */
-.page-header {
-}
+/* .page-header {
+} */
 
 /* Site nav */
 .container {
   margin-left: auto;
   margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
   width: 1440px;
   outline: 2px solid tomato;
 }

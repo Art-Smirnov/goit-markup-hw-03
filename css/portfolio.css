@@ -7,17 +7,21 @@
 /* вторинний колір фона  #2F303A */
 /* колір фона кнопок #F5F4FA */
 
-ul {
+.list {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 /* Фільтри */
-.portfolio-list .portfolio-button {
+
+.portfolio.list .portfolio-button {
   color: var(--title-text-color);
   background-color: var(--secondary-bg-color);
   font-family: inherit;
 }
-.portfolio-list .portfolio-button:hover,
-.portfolio-list .portfolio-button:focus {
+
+.portfolio.list .portfolio-button:hover,
+.portfolio.list .portfolio-button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
