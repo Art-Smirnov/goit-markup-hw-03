@@ -46,9 +46,14 @@
 }
 
 /* Преймущества  */
-.features.container {
-  margin-bottom: 94px;
+.features-list {
+  display: flex;
+  justify-content: space-between;
 }
+.features-list .item {
+  width: calc((100% - 90px) / 4);
+}
+
 .features .list-title {
   margin-top: 0;
   margin-bottom: 10px;
@@ -65,12 +70,20 @@
   font-size: 14px;
   line-height: 1.71;
 }
+/* Деятельность */
+.activity-list {
+  display: flex;
+  justify-content: space-between;
+}
 /* Персонал */
 
 .stuff {
   background-color: var(--secondary-bg-color);
 }
-
+.team {
+  display: flex;
+  justify-content: space-between;
+}
 .team img {
   margin-bottom: 30px;
 }
