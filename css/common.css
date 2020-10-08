@@ -167,7 +167,8 @@ footer {
   font-size: 26px;
   line-height: 1.19;
 }
-.footer-contacts .text {
+.footer-contacts .address {
+  display: block;
   margin-top: 0;
   margin-bottom: 9px;
   color: var(--primary-white-color);
